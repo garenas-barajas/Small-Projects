@@ -4,6 +4,7 @@
 //Description:
 //  Computer will tell the user to guess a number between 1-100.
 //  User gets 5 tries to guess the correct number.
+//***************************************************************
 
 #include <iostream>
 #include <cstdlib>
