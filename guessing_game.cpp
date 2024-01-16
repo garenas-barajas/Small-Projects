@@ -1,3 +1,10 @@
+//Project: Guessing Game
+//Author: Giancarlos A. Arenas-Barajas
+//Date: 15Jan2024
+//Description:
+//  Computer will tell the user to guess a number between 1-100.
+//  User gets 5 tries to guess the correct number.
+
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -47,10 +54,6 @@ void guessLower(int& guess, int& guessCount){
     validateGuess(guess, guessCount);
 }
 
-//guess the number game.
-//generate a raondom number from 1 to 100
-//have the user guess the number
-//give feedback such as "too high" or "too low"
 int main(){
     //start seed to generate a random number
     srand(static_cast<unsigned int>(time(0)));
