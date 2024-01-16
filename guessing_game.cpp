@@ -100,6 +100,10 @@ int main(){
         cout << "Congratulations!" << endl;
         cout << "You win :)" << endl;
         cout << "Heres some cake" << endl;
+        cout << "    _____|______ " << endl;
+        cout << "   |            | " << endl;
+        cout << "   | *congrats* | " << endl;
+        cout << " __|____________|__" << endl;
     }
 
     cout << endl << endl << endl;
