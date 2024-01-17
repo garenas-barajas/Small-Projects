@@ -93,6 +93,7 @@ int main(){
     
     if(guessCount == 1){
         cout << "Looks like you're all out of guesses :(" << endl;
+        cout << "The correct answer is: " << randNum << endl;
         cout << "GAME OVER!" << endl;
     }
 
